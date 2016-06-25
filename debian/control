@@ -1,0 +1,15 @@
+Source: blankon-nvidia-hybrid
+Section: metapackages
+Priority: optional
+Maintainer: BlankOn Developers <BlankOn@googlegroups.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 4), cdbs
+
+Package: blankon-nvidia-hybrid
+Architecture: i386 amd64
+Depends: nvidia-kernel-dkms, nvidia-xconfig, nvidia-settings, nvidia-vdpau-driver, vdpau-va-driver, mesa-utils, bumblebee, virtualgl, virtualgl-libs
+Description: The BlankOn metapackages Nvidia Hybrid
+ This package depends on all of the packages for Hybrid Nvidia VGA
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
