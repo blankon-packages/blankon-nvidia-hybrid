@@ -1,3 +1,9 @@
+blankon-nvidia-hybrid (0.2) tambora; urgency=medium
+
+  * Add post* 
+
+ -- dotovr <dotovr@preko>  Fri, 01 Jul 2016 15:51:18 +0700
+
 blankon-nvidia-hybrid (0.1) tambora; urgency=medium
 
   * Initial release 

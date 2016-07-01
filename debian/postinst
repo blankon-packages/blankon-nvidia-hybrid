@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+if getent group bumblebee > /dev/null 2>&1
+  then
+  adduser "$USER" bumblebee
+fi
+
+case "$1" in
+  configure)
+    modprobe bbswitch load_state=0 2> /dev/null || true
+    update-initramfs -u -k all
+    ;;
+esac
