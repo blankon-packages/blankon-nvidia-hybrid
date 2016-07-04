@@ -1,3 +1,9 @@
+blankon-nvidia-hybrid (0.4) tambora; urgency=medium
+
+  * Add script preinst
+
+ -- dotovr <dotovr@preko>  Tue, 05 Jul 2016 02:00:42 +0700
+
 blankon-nvidia-hybrid (0.3) tambora; urgency=medium
 
   * Replace bumblebee with bumblebee-nvidia 
